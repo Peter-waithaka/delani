@@ -17,7 +17,11 @@
 .section2{
     background-color: cornsilk;
 }
-
+.section3{
+    background-image: url(../images/backgrounds/s_image.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
        
     
     
