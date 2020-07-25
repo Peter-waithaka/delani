@@ -1,0 +1,17 @@
+/* body{
+   background-image: url(../images/backgrounds/h_img.jpg);
+   margin-top: 250px;
+   
+   
+} */
+.logo{
+    margin-left: 700px;
+}
+.text{
+    margin-left: 500px;
+    color: aliceblue;
+}
+h1{
+    padding-left: 150px;
+
+}
