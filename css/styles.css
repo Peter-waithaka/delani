@@ -1,17 +1,26 @@
-/* body{
-   background-image: url(../images/backgrounds/h_img.jpg);
-   margin-top: 250px;
-   
-   
-} */
-.logo{
-    margin-left: 700px;
+.section1{
+    padding: 50px;
+    background-color: black;
+    background-image: url(../images/backgrounds/h_img.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .text{
-    margin-left: 500px;
-    color: aliceblue;
+    padding-top: 14%;
+    color: white;
+    font-size: 12px;
 }
-h1{
-    padding-left: 150px;
+.center {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.section2{
+    background-color: cornsilk;
+}
 
-}
+       
+    
+    
+
+
+
