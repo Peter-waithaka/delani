@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani studio </title>
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
   <div class="section1">
@@ -48,36 +48,68 @@
    <p> based on your requiurements we can provide a complete offring or just pieces you neeed</p>
   </div>
 </div>
-<div class="section4">
-  <h1 class="text4"> what we do</h1>
+<div class="section4 text-center">
+  <h1 class="text4 "> what we do</h1>
   <div class="image2">
-  <img src="./images/backgrounds/services_icons/design_icon.png" alt="">
+    <div class="design"> 
+      <img id="design" src="./images/backgrounds/services_icons/design_icon.png" alt="">
+      <p class="one"> one</p>
+    </div>
+  
   <img src="./images/backgrounds/services_icons/dev_icon.png" alt="">
+  <p>two</p>
   <img src="./images/backgrounds/services_icons/product_icon.png" alt="">
+  <p>three</p>
 </div>
-  <h1 class="text4" >  portifolio</h1>
+  <h1 class="text4">portifolio</h1>
   <div class="images">
-  <img src="./images/portfolio/work1.jpg" alt="">
-  <img src="./images/portfolio/work2.jpg" alt="">
-  <img src="./images/portfolio/work3.jpg" alt="">
-  <img src="./images/portfolio/work4.jpg" alt="">
-  <img src="./images/portfolio/work5.jpg" alt="">
-  <img src="./images/portfolio/work6.jpg" alt="">
-  <img src="./images/portfolio/work7.jpg" alt="">
-  <img src="./images/portfolio/work8.jpg" alt="">
+    <div class="row">
+      <div class="col-md-3">
+        <img class="w-100"src="./images/portfolio/work1.jpg" alt="work1">
+      </div>
+      <div class="col-md-3">
+        <img class="w-100"src="./images/portfolio/work2.jpg" alt="work2">
+      </div>
+      <div class="col-md-3">
+        <img class="w-100"src="./images/portfolio/work3.jpg" alt="work3">
+      </div>
+      <div class="col-md-3">
+        <img class="w-100"src="./images/portfolio/work4.jpg" alt="work4">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <img class="w-100"src="./images/portfolio/work5.jpg" alt="work1">
+      </div>
+      <div class="col-md-3">
+        <img class="w-100"src="./images/portfolio/work6.jpg" alt="work2">
+      </div>
+      <div class="col-md-3">
+        <img class="w-100"src="./images/portfolio/work7.jpg" alt="work3">
+      </div>
+      <div class="col-md-3">
+        <img class="w-100"src="./images/portfolio/work8.jpg" alt="work4">
+      </div>
+    </div>
 </div>
 </div>
 <div class="section5">
-  <div class="form">
-    <label for="name"></label>
-    <input class="form" type="name" name="name" name>
-    <label for="email"></label>
-    <input class="form" type="email" name="email" email>
-    <label for="comments"></label>
-    <input class="feedback" type="comment" name="comment" comment>
-
-
-  </div>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 </div>
 <div class="footer">
   <img src="./images/social_icons/behance.png" alt="">
