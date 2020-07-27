@@ -64,7 +64,19 @@
     background-size: 100%;   
     background-repeat: no-repeat;
 
-}
+}#name{
+    margin-left: 12%;
+    color :white;
+  }
+  #email{
+    margin-left:5%;
+    color: white;
+  }
+  #form textarea{
+    background-color: transparent;
+    color: white;
+  }
+
 
 .footer{
     background-color: white;
