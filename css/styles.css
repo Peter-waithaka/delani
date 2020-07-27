@@ -39,13 +39,13 @@
     color: cornsilk;
 }
 
-.image2{
+/* .image2{
    padding: 2em;
    display: flex;
    justify-content: space-around;
-   position: relative; 
+   position: relative;  */
 
-}
+
 .one{
     display: none;
 }
