@@ -76,12 +76,12 @@
     background-color: transparent;
     color: white;
   }
+  textarea::placeholder{
+    color: white;
+  }
 
 
-.footer{
-    background-color: white;
 
-}
        
     
     
